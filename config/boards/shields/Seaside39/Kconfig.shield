@@ -1,5 +1,0 @@
-config SHIELD_Seaside39_R
-    def_bool $(shields_list_contains,Seaside39_R)
-
-config SHIELD_Seaside39_L
-    def_bool $(shields_list_contains,Seaside39_L)

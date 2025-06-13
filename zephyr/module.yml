@@ -1,4 +1,0 @@
-name: Seaside39
-build:
-  settings:
-    board_root: config
