@@ -455,7 +455,7 @@ Keyball39ishの左トラボモデルの場合、39ではありますが先述の
 | Keyball39ish右トラボ | [ダウンロード]( test_firmware/SeaSide39ish_firmware.zip) |
 | Keyball39ish左トラボ | [ダウンロード]( test_firmware/SeaSide39ish_leftball_firmware.zip) |
 | Keyball44右トラボ | [ダウンロード]( test_firmware/SeaSide44_firmware.zip) |
-| Keyball44左トラボ | [ダウンロード]( test_firmware/SeaSide44ish_firmware.zip) |
+| Keyball44ish右トラボ | [ダウンロード]( test_firmware/SeaSide44ish_firmware.zip) |
 
 ダウンロード後zipファイルを展開し、
 - `SeaSideXX_L rgbled_adapter-seeeduino_xiao_ble-zmk.uf2`
@@ -531,7 +531,7 @@ ZMK Studioで対応していない高度な設定を行いたい場合は、直�
 | Keyball39ish右トラボ | https://github.com/hama-be/zmk-config-SeaSide39ish |
 | Keyball39ish左トラボ | https://github.com/hama-be/zmk-config-SeaSide39ish-leftball |
 | Keyball44右トラボ | https://github.com/hama-be/zmk-config-SeaSide44 |
-| Keyball44左トラボ | https://github.com/hama-be/zmk-config-SeaSide44ish |
+| Keyball44ish右トラボ | https://github.com/hama-be/zmk-config-SeaSide44ish |
 | 初期ロットSeaSide39 | https://github.com/hama-be/zmk-config-SeaSide39-old |
 
 1. 上の表から選択したファームウェアをフォークする
