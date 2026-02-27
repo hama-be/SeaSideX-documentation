@@ -1,5 +1,6 @@
-# ビルドガイド
 
+
+# ビルドガイド
 - [ビルドガイド](#ビルドガイド)
   - [1. 注意事項](#1-注意事項)
     - [1-1. 対応するキーボード](#1-1-対応するキーボード)
@@ -36,6 +37,7 @@
     - [4-5. ZMKファームウェアのカスタマイズとビルド方法](#4-5-zmkファームウェアのカスタマイズとビルド方法)
   - [5. お疲れさまでした](#5-お疲れさまでした)
 
+![DSC02063](https://raw.githubusercontent.com/hama-be/SeaSideX-documentation/main/docs/img/DSC02063.JPG)
 
 <a id="1-注意事項"></a>
 ## 1. 注意事項
@@ -81,7 +83,7 @@ ish対応版のSeaSideXを使用する際にはNoballSideの基板がish専用�
 SeaSideXは可能な限りKeyballの資源を再利用したいという思想で設計していますが、どうしても構造上USB端子の位置をPro Microと同じにすることができませんでした。\
 ですので、多くのKeyball用ケースとSeaSideXのUSB端子が干渉してしまうという欠点があります。\
 ↓過去に作成したKeyball39用ケースの場合
-![DSC00409](img/DSC00409.JPG)
+![DSC00409](https://raw.githubusercontent.com/hama-be/SeaSideX-documentation/main/docs/img/DSC00409.JPG)
 
 対応方法としては以下のいずれかになると思います。参考にしていただき、許容できると感じる方のみご購入をお願いいたします。
 
@@ -160,7 +162,7 @@ KeyballではオプションでRGBLEDの実装が可能ですが、先述のと�
 | M2ネジ 8mm | 6本 | 大容量ケースセットを購入した方のみ |
 
 
-![IMG_1063](img/IMG_1063.jpg)
+![IMG_1063](https://raw.githubusercontent.com/hama-be/SeaSideX-documentation/main/docs/img/IMG_1063.jpg)
 
 <a id="2-2-組立前にお客様自身で準備いただく部品"></a>
 ### 2-2. 組立前にお客様自身で準備いただく部品
@@ -200,7 +202,7 @@ LED配線済のバッテリー持続時間の注意点については「[1-6. LE
 
   こちらのサイズを超えないようにお選びいただけますと基本的に使用可能となります。\
   マイコンカバーに収める場合は厚みに少し余裕がありますので752025などでも収まるかもしれません。（実機では未確認となりますのでご了承ください）
-  ![IMG_lipo](img/IMG_lipo.jpg)
+  ![IMG_lipo](https://raw.githubusercontent.com/hama-be/SeaSideX-documentation/main/docs/img/IMG_lipo.jpg)
 
 - 観点2. コネクタ\
   付属のコネクタに適合する規格は先述のとおり、JST 1.25mmと記載のものになります。\
@@ -209,10 +211,10 @@ LED配線済のバッテリー持続時間の注意点については「[1-6. LE
   バッテリーの商品ページとSeaSideXに接続するタイミングで正しい配線になっているか十分に確認の上でご利用をお願いいたします。
   
   正しい極性のコネクタ
-  ![IMG_1516](img/IMG_1516.jpg)
+  ![IMG_1516](https://raw.githubusercontent.com/hama-be/SeaSideX-documentation/main/docs/img/IMG_1516.jpg)
 
   極性が逆のコネクタ例
-  ![IMG_lipo2](img/IMG_lipo2.jpg)
+  ![IMG_lipo2](https://raw.githubusercontent.com/hama-be/SeaSideX-documentation/main/docs/img/IMG_lipo2.jpg)
 
 <a id="2-3-必要な工具"></a>
 ### 2-3. 必要な工具
@@ -243,18 +245,18 @@ SeaSideXの組み立てには下記の工具が必要です。
 組み立ての都合で、現時点ではまだはんだ付けしないピンがあるので注意してください。
 
 1. 写真を参考に、ポゴピンを装着する場所を確認します。右側は２箇所、左側は１箇所です。
-![IMG_1062](img/IMG_1062.jpg)
+![IMG_1062](https://raw.githubusercontent.com/hama-be/SeaSideX-documentation/main/docs/img/IMG_1062.jpg)
 
 
 1. 対象のスルーホールにポゴピンを差し込みます。差し込む基板の面とポゴピンの向きを間違えないように注意してください。ロゴがある面に、段差があり根本まで差し込めないほうのピンを差し込むのが正解です。\
   ポゴピンの差し込み向き間違いによりお問い合わせを数多くいただいております。逆向きにはんだ付けしてしまうと最悪基板ごと交換になる場合もありますので慎重にご確認のうえお取り付けください。
-  ![DSC00027](img/DSC00027.JPG)
+  ![DSC00027](https://raw.githubusercontent.com/hama-be/SeaSideX-documentation/main/docs/img/DSC00027.JPG)
 
 1. 基板を裏返し、ポゴピンが固定されるようにマスキングテープなどで固定してください。裏面にポゴピンの足が少し飛び出していればOKです。
-![DSC00028](img/DSC00028.JPG)
+![DSC00028](https://raw.githubusercontent.com/hama-be/SeaSideX-documentation/main/docs/img/DSC00028.JPG)
 
 1. この状態でポゴピンの足をはんだ付けします。この時、右側基板のポゴピンの足を１本だけはんだ付けしないでおいてください。はんだ付けせずに残す箇所は画像で確認してください。左側基板はすべてはんだ付けしてOKです。
-![DSC00032](img/DSC00032.JPG)
+![DSC00032](https://raw.githubusercontent.com/hama-be/SeaSideX-documentation/main/docs/img/DSC00032.JPG)
 
 
 <a id="3-2-スイッチの取り付け"></a>
@@ -263,11 +265,11 @@ SeaSideXの組み立てには下記の工具が必要です。
 電源スイッチを基板に取り付けます。
 
 1. スライドスイッチを基板の表面から差し込み、マスキングテープなどで固定します。
-![DSC00034](img/DSC00034.JPG)
+![DSC00034](https://raw.githubusercontent.com/hama-be/SeaSideX-documentation/main/docs/img/DSC00034.JPG)
 
 2. 裏面からはんだ付けします。スイッチが浮かないように注意してください。
 3. 気になる方ははみ出した足をカットしてください。
-![DSC00035](img/DSC00035.JPG)
+![DSC00035](https://raw.githubusercontent.com/hama-be/SeaSideX-documentation/main/docs/img/DSC00035.JPG)
 
 
 <a id="3-3-マイコンの足をカット"></a>
@@ -277,13 +279,13 @@ SeaSideXの組み立てには下記の工具が必要です。
 ※ この工程は行わなくても組み立て可能です。組み立て済みをご注文いただいた方は、この工程が行われていないものが届く場合がありますのでご了承ください。
 
 1. マイコンに付属のピンヘッダをマイコンにはんだ付けします。SeaSide専用カバーを使用する場合、マイコン上面にピンが長くはみ出しているとカバーと干渉する場合があるので注意してください。画像のようになっていればOKです。
-![DSC00036](img/DSC00036.JPG)
+![DSC00036](https://raw.githubusercontent.com/hama-be/SeaSideX-documentation/main/docs/img/DSC00036.JPG)
    
 2. マイコンの足を基板のスルーホールに差し込みます。差し込む箇所は画像で確認してください。
-![DSC00413](img/DSC00413.JPG)
+![DSC00413](https://raw.githubusercontent.com/hama-be/SeaSideX-documentation/main/docs/img/DSC00413.JPG)
 
 1. ポゴピンが押し込まれ、これ以上差し込めないことを確認したら、その状態でピンのはみ出している部分をニッパーでカットします。画像のようになればOKです。
-![DSC00046](img/DSC00046.JPG)
+![DSC00046](https://raw.githubusercontent.com/hama-be/SeaSideX-documentation/main/docs/img/DSC00046.JPG)
   
 1. 長さを揃えることができたら、一度マイコンを抜きとります。この時、ギリギリでカットしすぎたりニッパーの質が悪いと、ピンの先端が変形し、マイコンがなかなか基板から抜けない場合があります。その場合は破損しないように注意しながら引き抜いてください。
 
@@ -294,11 +296,11 @@ Lipoバッテリー用のコネクタを取り付けます。
 
 1. バッテリーコネクタを任意の長さに切断します。長さは基本的に好みですが、長すぎてもケーブルの取り回しが難しくなることがあるので2~3センチメートル程度を推奨します。
 2. ケーブルの被覆を2mmほど剥きます。ニッパーやカッターで剥けますが、ケーブルが細く慣れていないとケーブル自体を切断してしまうこともあるので、先程切ったケーブルの切れ端で練習してから挑むことをおすすめします。
-![DSC00048](img/DSC00048.JPG)
+![DSC00048](https://raw.githubusercontent.com/hama-be/SeaSideX-documentation/main/docs/img/DSC00048.JPG)
 
 3. 基板の裏面からバッテリー端子用のスルーホールにはんだ付けします。この時、BAT+に赤色、BAT-に黒色を接続します。必ず間違えないように確認してください。（ただし例外的に逆に配線する場合もあります。詳細は[2-2-1. バッテリーの選び方と注意点](#2-2-1-バッテリーの選び方と注意点)をいただき、極性に間違いの無いように配線を行ってください。）\
     バッテリーをマイコンカバーに格納する予定の方は画像の通り（基板下側向き）に、大容量ケースに格納する予定の方は逆方向（基板上側向き）にはんだ付けしたほうが少しだけケーブルが取り回しやすくなります。迷ったら画像の向きではんだ付けすればOKです。
-    ![DSC00049](img/DSC00049.JPG)
+    ![DSC00049](https://raw.githubusercontent.com/hama-be/SeaSideX-documentation/main/docs/img/DSC00049.JPG)
     組み立て済の場合、すべて下向きではんだ付けしてあります。
 
 ここで切り落としたコネクタの線は、使用するモデルによって後の[3-8. 使用モデルに応じた配線](#3-8-使用モデルに応じた配線)で使用する場合があります。捨てずに取っておいてください。
@@ -311,22 +313,22 @@ Lipoバッテリー用のコネクタを取り付けます。
 1. Keyball基板のOLEDとPro Microを取り外します。キーキャップやキースイッチなども取り外しておいたほうが作業性がよくなります。
 2. コンスルーピンをKeyball基板の表面に差し込みます。差し込む穴は画像を参照してください。特に左側は、本家KeyballでPro Microを差し込んでいた場所と異なりますので注意が必要です。\
   右トラボの場合
-  ![DSC00414](img/DSC00414.JPG)
+  ![DSC00414](https://raw.githubusercontent.com/hama-be/SeaSideX-documentation/main/docs/img/DSC00414.JPG)
   左トラボの場合
-  ![IMG_1064](img/IMG_1064.jpg)
+  ![IMG_1064](https://raw.githubusercontent.com/hama-be/SeaSideX-documentation/main/docs/img/IMG_1064.jpg)
   ishの場合
-  ![IMG_1065](img/IMG_1065.jpg)
+  ![IMG_1065](https://raw.githubusercontent.com/hama-be/SeaSideX-documentation/main/docs/img/IMG_1065.jpg)
   また、この時コンスルーピンには正しい向きがありますので、[本家Keyballのビルドガイド](https://github.com/Yowkees/keyball/blob/main/keyball39/doc/rev1/buildguide_jp.md#3-6promicro%E3%81%AE%E3%81%AF%E3%82%93%E3%81%A0%E4%BB%98%E3%81%91)を参考に差し込む向きもご確認ください。
-  ![DSC00054](img/DSC00054.JPG)
+  ![DSC00054](https://raw.githubusercontent.com/hama-be/SeaSideX-documentation/main/docs/img/DSC00054.JPG)
 
 1. コンスルーピンを差し込んだら、その上からSeaSideXの基板を差し込みます。この時に、トラボ側基板ではんだ付けせずに残して置いたポゴピンの足が干渉し隙間が空きやすいので、色々な角度から隙間を覗き、コンスルーを基板の間に隙間がないことをしっかりとご確認ください。\
   下の画像の部分が特に隙間が空きやすいので注意。最悪隙間があっても動作に問題はないので、基板の傾きが気にならない方は神経質にならずに作業を進めてもOKです。
-  ![DSC00062](img/DSC00062.JPG)
+  ![DSC00062](https://raw.githubusercontent.com/hama-be/SeaSideX-documentation/main/docs/img/DSC00062.JPG)
 
 
 4. 隙間が無いことを確認したらコンスルーピンをはんだ付けして固定します。この時、はんだを盛りすぎるとマイコンを装着する際に干渉する場合があるので、少量のはんだで軽く接着するようなイメージではんだ付けを行ってください。\
   コンスルーピンははんだ付けしなくても電気的に導通するので、ポゴピンやマイコン用のスルーホールと干渉するリスクのあるピン（画像赤枠のあたり）については無理にはんだ付けをする必要はありません。あくまでコンスルーが抜けてしまわないように固定するためにはんだ付けを行いますので、最悪四隅のピンだけでもはんだ付けできていればOKです。
-  ![DSC00058](img/DSC00058.JPG)
+  ![DSC00058](https://raw.githubusercontent.com/hama-be/SeaSideX-documentation/main/docs/img/DSC00058.JPG)
 
 
 
@@ -337,7 +339,7 @@ Lipoバッテリー用のコネクタを取り付けます。
 
 1. SeaSideX基板をKeyball基板から外します。
 2. 右側基板裏側の、はんだ付けがされていないピンにはんだ付けをします。コンスルーが干渉しているので、溶かしてしまわないようにだけ注意しながら短時間の加熱・少量のはんだでさっとはんだ付けを行います。
-![DSC00063](img/DSC00063.JPG)
+![DSC00063](https://raw.githubusercontent.com/hama-be/SeaSideX-documentation/main/docs/img/DSC00063.JPG)
 
 <a id="3-7-マイコンのはんだ付け"></a>
 ### 3-7. マイコンのはんだ付け
@@ -345,15 +347,15 @@ Lipoバッテリー用のコネクタを取り付けます。
 Seeed XIAO BLE nRF52840を基板に取り付けます。
 
 1. マイコンを基板のスルーホールに差し込みます。コンスルーがスルーホールに少し干渉しているので刺さりにくいことがありますが、慎重かつ力強く押し込むとなんとかなるはずです。もしかするとここが一番の難所かもしれません。
-![DSC00064](img/DSC00064.JPG)
+![DSC00064](https://raw.githubusercontent.com/hama-be/SeaSideX-documentation/main/docs/img/DSC00064.JPG)
 2. 差し込んだマイコンによってポゴピンの先端が押し込まれていることを確認します。
 3. 差し込んだマイコンとSeaSideX基板が平行になるように傾きを微調整します。
-![012153818](img/012153818.jpg)
+![012153818](https://raw.githubusercontent.com/hama-be/SeaSideX-documentation/main/docs/img/012153818.jpg)
 4. 先ほどのポゴピンの足と同様に、こちらもコンスルーと干渉していますので溶かしてしまわないよう注意しつつ、さっとはんだ付けをします。
 5. 画像のようになればOKです。
-![DSC00065](img/DSC00065.JPG)
+![DSC00065](https://raw.githubusercontent.com/hama-be/SeaSideX-documentation/main/docs/img/DSC00065.JPG)
   マイコンの足をカットしなかった場合は以下のような仕上がりになります。
-  ![232758465](img/232758465.jpg)
+  ![232758465](https://raw.githubusercontent.com/hama-be/SeaSideX-documentation/main/docs/img/232758465.jpg)
 
 <a id="3-8-使用モデルに応じた配線"></a>
 ### 3-8. 使用モデルに応じた配線
@@ -375,7 +377,7 @@ Seeed XIAO BLE nRF52840を基板に取り付けます。
 
 SeaSide39として使用する場合は、ボール側基板の39パッドをはんだでブリッジさせる必要があります。\
 以下のようになればOKです。\
-![IMG_1060](img/IMG_1060.jpg)
+![IMG_1060](https://raw.githubusercontent.com/hama-be/SeaSideX-documentation/main/docs/img/IMG_1060.jpg)
 
 <a id="3-8-2-SeaSide44用配線"></a>
 #### 3-8-2. SeaSide44用配線
@@ -385,7 +387,7 @@ SeaSide44として使用する場合は少し難易度が上がりますが、�
 https://youtu.be/jyEgmNJrH-E
 
 [3-4. バッテリーコネクタの取り付け](#3-4-バッテリーコネクタの取り付け)で取っておいたコネクタ線の切れ端を使用し、画像の長さの線を作成します。\
-![IMG_1071](img/IMG_1071.jpg)
+![IMG_1071](https://raw.githubusercontent.com/hama-be/SeaSideX-documentation/main/docs/img/IMG_1071.jpg)
 
 被覆を剥く時はカッティングマットの上で軽くカッターを当ててケーブルを転がすように切るのがおすすめです。被覆を剥いた線に予備はんだをしておいてください。\
 マイコン側にはんだ付けします。厳密には接続する対象は一番右下のパッドですが、SeaSideXの仕様だと上2つのパッドに接続されてしまっても動作上影響はないので、はんだ付けの難易度を下げる意味で右側３つのパッドすべてに同時にはんだ付けしてしまいます。\
@@ -393,7 +395,7 @@ https://youtu.be/jyEgmNJrH-E
 マイコン側の配線ができたらピンセットなどで配線を整え、位置が決まったら基板44のパッド(スルーホール)にはんだ付けしてください。
 
 以下のようになればOKです。\
-![IMG_1072](img/IMG_1072.jpg)
+![IMG_1072](https://raw.githubusercontent.com/hama-be/SeaSideX-documentation/main/docs/img/IMG_1072.jpg)
 
 <a id="3-8-3-SeaSide39(左手トラボ)用配線"></a>
 #### 3-8-3. SeaSide39(左手トラボ)用配線
@@ -407,7 +409,7 @@ https://youtu.be/jyEgmNJrH-E
 
 Keyball39左トラボでは、先述の[SeaSide39用配線](#3-8-1-seaside39用配線)に加えて、Keyball39本体のボール側基板背面のLEFTパッドの短絡を外す必要があります。\
 以下のようになればOKです。
-![IMG_1059](img/IMG_1059.jpg)
+![IMG_1059](https://raw.githubusercontent.com/hama-be/SeaSideX-documentation/main/docs/img/IMG_1059.jpg)
 これにより、SeaSideから元のProMicroに戻したくなった時には再度このLEFTパッドを接続する必要がでてきます。KeyballとSeaSideで行き来する気軽さが少し減ってしまいますが、ご了承いただけますと幸いです。
 
 Keyball39ishの左トラボモデルの場合、39ではありますが先述の[SeaSide44用配線](#3-8-2-seaside44用配線)を行ってください。少し気持ち的な違和感があるかもしれませんが、こちらもご了承いただけますと幸いです。
@@ -419,16 +421,16 @@ Keyball39ishの左トラボモデルの場合、39ではありますが先述の
 省電力タイプのトラックボール読み取りセンサーを基板に取り付けます。
 
 1. センサーを基板に差し込みます。画像を参考に、向きを間違えないようにしてください。
-![DSC00072](img/DSC00072.JPG)
+![DSC00072](https://raw.githubusercontent.com/hama-be/SeaSideX-documentation/main/docs/img/DSC00072.JPG)
 2. すべてのピンにはんだ付けをし、センサーの保護シールを剥がします。はんだ付けの際に、はんだごてが表面実装の部品に触れてしまわないよう注意してください。
-![DSC00076](img/DSC00076.JPG)
+![DSC00076](https://raw.githubusercontent.com/hama-be/SeaSideX-documentation/main/docs/img/DSC00076.JPG)
 3. センサー用レンズを差し込みます。画像を参考に、向きを間違えないようにしてください。
-![DSC00077](img/DSC00077.JPG)
+![DSC00077](https://raw.githubusercontent.com/hama-be/SeaSideX-documentation/main/docs/img/DSC00077.JPG)
 
 以上ではんだ付けは完了です。お疲れさまでした！\
 スライドスイッチをオン（左側）に入れ、USBケーブルを繋ぐと充電インジケータが緑色に光り、充電されていることが確認できるはずです。バッテリーの充電はスイッチをオンにしている時にしか行われないのでご注意ください。
 
-![DSC00067](img/DSC00067.JPG)
+![DSC00067](https://raw.githubusercontent.com/hama-be/SeaSideX-documentation/main/docs/img/DSC00067.JPG)
 
 
 <a id="3-10-LED配線カット"></a>
@@ -438,11 +440,11 @@ Keyball39ishの左トラボモデルの場合、39ではありますが先述の
 しかし、本家Keyball基板に少し手を入れることでこちらを改善できますので、バッテリー持ちが気になる場合は以下の手順を実施してください。
 
 本家Keball基板の裏面にある「LED CUT」と書かれたパッドを探します。片側につき２箇所あります。
-![1408](img/IMG_1408.jpg)
+![1408](https://raw.githubusercontent.com/hama-be/SeaSideX-documentation/main/docs/img/IMG_1408.jpg)
 
 パッドの真ん中をカッターなどでガリガリと削ります。（画像は削った後）\
 これにより、LED配線が物理的に切断された相当の状態となります。
-![1409](img/IMG_1409.jpg)
+![1409](https://raw.githubusercontent.com/hama-be/SeaSideX-documentation/main/docs/img/IMG_1409.jpg)
 
 もしLEDが恋しくなった時は、切断したパッドをはんだでブリッジさせることで元通りにすることも可能です。
 
@@ -456,38 +458,38 @@ Keyball39ishの左トラボモデルの場合、39ではありますが先述の
 
 1. バッテリーコネクタの向きを確認します。大容量ケースを使用しない方は、コネクタケーブルを基板下側へ向け、大容量ケースを使用する方は基板上側に向けます。大容量ケースを使用する、かつ下向きにコネクタをはんだ付けした方は、画像のようにコネクタケーブルを曲げて基板上側に向けます。
   このとき、ケーブルの根本に負荷がかかると断線するおそれがあるので優しく取り扱ってください。
-  ![DSC00456](img/DSC00456.JPG)
+  ![DSC00456](https://raw.githubusercontent.com/hama-be/SeaSideX-documentation/main/docs/img/DSC00456.JPG)
   
 1. SeaSideXをKeyball基板に装着します。差し込む穴は画像の通りです。
   ishシリーズの場合は差し込める穴が一箇所だけのはずですので差し込める通りに差し込めばOKです。\
   Keyball39と44の場合
-  ![DSC00414](img/DSC00414.JPG)
+  ![DSC00414](https://raw.githubusercontent.com/hama-be/SeaSideX-documentation/main/docs/img/DSC00414.JPG)
   Keyball39左トラボの場合 
-  ![IMG_1064](img/IMG_1064.jpg)
+  ![IMG_1064](https://raw.githubusercontent.com/hama-be/SeaSideX-documentation/main/docs/img/IMG_1064.jpg)
   大容量ケースを使用しない方は、画像のようにOLED用のピンソケットを避けるように隙間を通してください。ソケットと基板でケーブルを挟みこんでしまわないように注意します。
-  ![DSC00455](img/DSC00455.JPG)
+  ![DSC00455](https://raw.githubusercontent.com/hama-be/SeaSideX-documentation/main/docs/img/DSC00455.JPG)
   大容量ケースを使用する方は、Keyball39基板の底面側に出るようにケーブルを通してください。
-  ![DSC00457](img/DSC00457.JPG)
+  ![DSC00457](https://raw.githubusercontent.com/hama-be/SeaSideX-documentation/main/docs/img/DSC00457.JPG)
 
 1. バッテリーを装着します。  大容量ケースを使用しない方は、マイコンカバーの裏面に両面テープで200mAhバッテリーを固定しコネクタを接続します。画像を参考に、組み立てた時にXIAO BLEと干渉しないように位置決めをしてください。
-  ![DSC00458](img/DSC00458.JPG)
+  ![DSC00458](https://raw.githubusercontent.com/hama-be/SeaSideX-documentation/main/docs/img/DSC00458.JPG)
   ケーブルがはみ出さないように注意しつつ、隙間に押し込みながらカバーをネジ止めします。
-  ![DSC00459](img/DSC00459.JPG)
+  ![DSC00459](https://raw.githubusercontent.com/hama-be/SeaSideX-documentation/main/docs/img/DSC00459.JPG)
   写真のようにUSBコネクタとカバーの位置が合っていればOKです。
-  ![DSC00460](img/DSC00460.JPG)
+  ![DSC00460](https://raw.githubusercontent.com/hama-be/SeaSideX-documentation/main/docs/img/DSC00460.JPG)
   大容量ケースを使用する方は、バッテリーを接続する前にケースを装着する必要があります。画像のようにコネクタを穴から下に出し、赤く囲ったネジだけ（右側2箇所、左側1箇所）を固定します。
-  ![DSC00461](img/DSC00461.JPG)
+  ![DSC00461](https://raw.githubusercontent.com/hama-be/SeaSideX-documentation/main/docs/img/DSC00461.JPG)
   大容量ケースの底面パーツにバッテリーを両面テープで固定し、コネクタを接続します。
-  ![DSC00462](img/DSC00462.JPG)
+  ![DSC00462](https://raw.githubusercontent.com/hama-be/SeaSideX-documentation/main/docs/img/DSC00462.JPG)
   ケーブルがはみ出さないように注意しつつ、隙間に押し込みながらカバーを閉じます。
-  ![DSC00463](img/DSC00463.JPG)
+  ![DSC00463](https://raw.githubusercontent.com/hama-be/SeaSideX-documentation/main/docs/img/DSC00463.JPG)
   残りのネジを締めます。底面パーツのネジ止めは、大容量ケースに付属の8mmネジを使用します。写真のように隙間が空いていなければOKです。
-  ![DSC00464](img/DSC00464.JPG)
+  ![DSC00464](https://raw.githubusercontent.com/hama-be/SeaSideX-documentation/main/docs/img/DSC00464.JPG)
   専用ケースおよび大容量ケースどちらの場合も、画像のようにコネクタとスイッチが位置がケースに合っていることを確認してください。
-  ![DSC00441](img/DSC00441.JPG)
+  ![DSC00441](https://raw.githubusercontent.com/hama-be/SeaSideX-documentation/main/docs/img/DSC00441.JPG)
 
 1. トラックボール読み取り基板を元のKeyballのものからSeaSideXのものに置き換えます。Keyballのものとほぼ同じサイズになっているので、元の状態と同じように基板を差し替えるだけでOKです。
-![DSC00077](img/DSC00077.JPG)
+![DSC00077](https://raw.githubusercontent.com/hama-be/SeaSideX-documentation/main/docs/img/DSC00077.JPG)
 1. 基板の差し替えが済んだら、トラックボールケースを元通りに装着しケースに固定します。
 
 <a id="4-ファームウェア"></a>
@@ -501,12 +503,12 @@ Keyball39ishの左トラボモデルの場合、39ではありますが先述の
 
 | モデル | リンク |
 |:-|:-|
-| Keyball39右トラボ | [ダウンロード]( test_firmware/SeaSide39_firmware.zip) |
-| Keyball39左トラボ | [ダウンロード]( test_firmware/SeaSide39_leftball_firmware.zip) |
-| Keyball39ish右トラボ | [ダウンロード]( test_firmware/SeaSide39ish_firmware.zip) |
-| Keyball39ish左トラボ | [ダウンロード]( test_firmware/SeaSide39ish_leftball_firmware.zip) |
-| Keyball44右トラボ | [ダウンロード]( test_firmware/SeaSide44_firmware.zip) |
-| Keyball44ish右トラボ | [ダウンロード]( test_firmware/SeaSide44ish_firmware.zip) |
+| Keyball39右トラボ | [ダウンロード](https://raw.githubusercontent.com/hama-be/SeaSideX-documentation/main/docs/test_firmware/SeaSide39_firmware.zip) |
+| Keyball39左トラボ | [ダウンロード](https://raw.githubusercontent.com/hama-be/SeaSideX-documentation/main/docs/test_firmware/SeaSide39_leftball_firmware.zip) |
+| Keyball39ish右トラボ | [ダウンロード](https://raw.githubusercontent.com/hama-be/SeaSideX-documentation/main/docs/test_firmware/SeaSide39ish_firmware.zip) |
+| Keyball39ish左トラボ | [ダウンロード](https://raw.githubusercontent.com/hama-be/SeaSideX-documentation/main/docs/test_firmware/SeaSide39ish_leftball_firmware.zip) |
+| Keyball44右トラボ | [ダウンロード](https://raw.githubusercontent.com/hama-be/SeaSideX-documentation/main/docs/test_firmware/SeaSide44_firmware.zip) |
+| Keyball44ish右トラボ | [ダウンロード](https://raw.githubusercontent.com/hama-be/SeaSideX-documentation/main/docs/test_firmware/SeaSide44ish_firmware.zip) |
 
 ダウンロード後zipファイルを展開し、
 - `SeaSideXX_L rgbled_adapter-seeeduino_xiao_ble-zmk.uf2`
@@ -528,7 +530,7 @@ Keyball39ishの左トラボモデルの場合、39ではありますが先述の
    - PC上で「XIAO SENSE」というドライブが認識されれば成功です。
 3. 「XIAO SENSE」ドライブに `settings_reset-seeeduino_xiao_ble-zmk.uf2` をドラッグ&ドロップまたはコピー&ペーストで書き込みます。この時、macの場合画像のようなメッセージが出る場合がありますが、「XIAO SENSE」ドライブが自動的に認識されなくなっていたら書き込みに成功しています。\
    `settings_reset-seeeduino_xiao_ble-zmk.uf2` は設定初期化用のファイルなので、基本的に以後ファームウェアの書き換えを行う際などには書き込み不要です。
-  ![err1](img/err1.png)
+  ![err1](https://raw.githubusercontent.com/hama-be/SeaSideX-documentation/main/docs/img/err1.png)
 1. 再度マイコンをブートローダーモードにし、今度はNoBallSide用のファームウェア(右手トラボの場合 `SeaSideXX_L rgbled_adapter-seeeduino_xiao_ble-zmk.uf2`, 左手トラボの場合`SeaSideXX_R rgbled_adapter-seeeduino_xiao_ble-zmk.uf2`) を同様の手順で書き込みます。この時も同様のメッセージが出ることがありますが、正常です。
 2. SeaSideX(BallSide)の右側にも同様の手順で`settings_reset-seeeduino_xiao_ble-zmk.uf2` → 先ほどと逆のファームウェアファイル の順番で書き込みを行います。
 3. 左右の書き込みが完了したらUSBケーブルを取り外し、両方のSeaSideXのスイッチをオン（左側）にし、マイコンのリセットスイッチをNoBallSide→BallSideの順番で一度ずつ押します
@@ -571,7 +573,7 @@ Remapなどに近い操作感で設定が可能ですが、機能に一部制限
 
 ZMK Studioで対応していない高度な設定を行いたい場合は、直接ファームウェアをカスタマイズしてビルドする必要があります。ファームウェアのカスタマイズビルドにはGitHubを使用します。\
 おおまかなフローは以下のとおりです。ここでは各ツールの細かな使い方の説明はしませんので、必要に応じて調べてみてください。
-![flow](img/flow.jpg)
+![flow](https://raw.githubusercontent.com/hama-be/SeaSideX-documentation/main/docs/img/flow.jpg)
 
 使用するファームウェアのリポジトリはモデルによって異なります。間違えないに選択してください。
 
@@ -633,7 +635,7 @@ ZMK Studioで対応していない高度な設定を行いたい場合は、直�
   - 「GitHub Actions」という機能を使って、コードをプッシュするたびに自動的にファームウェアがビルドされます。
   - Actionsはリポジトリの「Actions」タブから確認できます。初回は手動で有効化が必要です。
   - リポジトリに変更をプッシュすると数分でビルドが完了します。「Actions」タブから最新のワークフローを開き、Artifactsからファームウェアをダウンロードしてください。
-    ![build](img/build.png)
+    ![build](https://raw.githubusercontent.com/hama-be/SeaSideX-documentation/main/docs/img/build.png)
   - ダウンロードしたファームウェアを書き込みます。キーマップの変更の場合は右側だけの書き込みでOKです。
 
 
