@@ -37,7 +37,7 @@
     - [4-5. ZMKファームウェアのカスタマイズとビルド方法](#4-5-zmkファームウェアのカスタマイズとビルド方法)
   - [5. お疲れさまでした](#5-お疲れさまでした)
 
-![DSC02063](https://raw.githubusercontent.com/hama-be/SeaSideX-documentation/main/docs/img/DSC02063.JPG)
+![DSC02063](https://raw.githubusercontent.com/hama-be/SeaSideX-documentation/main/docs/img/DSC02063.jpg)
 
 <a id="1-注意事項"></a>
 ## 1. 注意事項
